@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*overflow: hidden;*/
+    font-family: Garamond, serif;    
+    font-size: 20px;
+}
+
+h1 {
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+h2, h3 {
+    padding: 1rem 1rem;
+}
+
+p {
+    padding: 0.5rem 1rem;
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: brown;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    padding-left: 1rem;
+}
+
+header {
+    height: 8rem;
+    padding: 1rem;
+    color: #f28f8f;
+    background-color: #fcffe3;
+}
+
+.recipes {
+    padding: 2rem;
+    font-family: Copperplate, fantasy;
+    font-size: 1.25rem;
+}
+
+.recipe {
+    padding-top: 0.5rem;
+}
+
+.recipe-name {
+    font-size: 2rem;
+}
+
+.ingredients {
+    background-color: rgb(237, 237, 202);
+}
+
+.ingredients-font, .steps-font {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.step {
+    font-family: "Lucida Handwriting", cursive; 
+    font-size: 1.5rem;
+}
+
+.ingredients ul,
+.steps ol,
+.wine-section ul,
+.dessert-section ul {
+    padding-left: 4rem;
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+.red-wine {
+    color: rgb(137, 15, 15);
+}
+
+.white-wine {
+    color: rgb(185, 184, 159);
+}
+.dessert-section {
+    margin-bottom: 4rem;
+}
